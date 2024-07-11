@@ -1,0 +1,37 @@
+.vagas {
+    margin-bottom: 10em;
+}
+
+.vagas__título-principal {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20vw;
+    margin-bottom: 1.5em;
+    color: var(--cor-da-fonte);
+}
+
+.vagas__card {
+    width: 50vw;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 1.3em;
+    margin: 0 auto 3em auto;
+}
+
+.vagas__card-título {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-da-fonte);
+    margin-bottom: 1.7em;
+}
+
+.vagas__card-lista {
+    display: flex;
+}
+
+.vagas__card-lista li {
+    margin-right: 1.5em;
+    color: var(--cinza);
+}

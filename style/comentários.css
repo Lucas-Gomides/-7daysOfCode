@@ -1,0 +1,42 @@
+.comentários {
+    background: #C3191908;
+    padding: 3.5em;
+}
+
+.comentários__título {
+    color: var(--vermelho-principal);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+.comentários__parágrafo {
+    color: #101828;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.comentários__colaborador {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comentários__colaborador-nome {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+}
+
+.comentários__colaborador-profissão {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza);
+}

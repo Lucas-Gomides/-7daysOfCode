@@ -1,0 +1,93 @@
+.apresentação {
+    margin-bottom: 11.5em;
+}
+
+.apresentação-texto {
+    padding: 5em 13em;
+}
+
+.sobre-nós {
+    color: var(--vermelho-principal);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.apresentação__titulo {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.apresentação__parágrafo {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cinza);
+    margin-top: 1.8em;
+    text-align: center;
+}
+
+.apresentação__números {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 2.5em 7em 2.5em;
+}
+
+.apresentação__projetos-concluídos h2,
+.apresentação__colaboradores h2,
+.apresentação__downloads h2,
+.apresentação__reviews-5-estrelas h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--vermelho-principal);
+    margin-bottom: 0.1em;
+}
+
+.apresentação__projetos-concluídos span,
+.apresentação__colaboradores span,
+.apresentação__downloads span,
+.apresentação__reviews-5-estrelas span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.apresentação__projetos-concluídos p,
+.apresentação__colaboradores p,
+.apresentação__downloads p,
+.apresentação__reviews-5-estrelas p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+    margin-top: 0.4em;
+}
+
+.apresentação__projetos-concluídos,
+.apresentação__colaboradores,
+.apresentação__downloads,
+.apresentação__reviews-5-estrelas {
+    width: 20em;
+    text-align: left;
+}
+
+.apresentação__projetos-concluídos {
+    padding-right: 1em;
+}
+
+.apresentação__colaboradores {
+    padding: 0 1em;
+}
+
+.apresentação__downloads {
+    padding: 0 1em;
+}
+
+.apresentação__reviews-5-estrelas {
+    padding-left: 1em;
+}

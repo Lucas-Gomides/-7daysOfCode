@@ -1,0 +1,60 @@
+.acompanhamento {
+    background: #F9FAFB;
+    margin: 5.5em 0 0 0;
+    padding: 6em;
+}
+
+.acompanhamento__título {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+.acompanhamento__parágrafo {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    text-align: center;
+    margin-bottom: 1.6em;
+}
+
+.acompanhamento__lista-email-cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acompanhamento__email {
+    width: 23em;
+    height: 2.5em;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    margin-right: 1em;
+}
+
+.acompanhamento__email::placeholder {
+    padding-left: 0.6em;
+}
+
+.acompanhamento__botão {
+    padding: 0.78em 1em;
+    background-color: #8E2424;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.acompanhamento__direitos {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+    text-align: center;
+    margin-top: 2em;
+}

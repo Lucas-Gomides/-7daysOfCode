@@ -1,0 +1,24 @@
+:root {
+    --fonte-principal: 'inter';
+    --cinza: #667085;
+    --vermelho-principal: #8E2424;
+    --cor-da-fonte: #101828;
+}
+
+header,
+.comentários {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    margin: 0 2.5em;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.apresentação,
+.vagas-abertas,
+.vagas,
+.comentários {
+    margin: 0 5em;
+}

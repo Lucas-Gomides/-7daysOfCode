@@ -1,0 +1,58 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,
+.navegação,
+.logar {
+    display: flex;
+    margin: 1.5em 0;
+    align-items: center;
+}
+
+.imagem__logo {
+    margin-right: 0.4em;
+}
+
+.logo {
+    margin-right: 9vw;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navegação li {
+    margin: 0 1em;
+    transition: all 0.1s;
+}
+
+.navegação {
+    margin-right: auto;
+    color: var(--cinza);
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.logar {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.logar li {
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+.entrar {
+    color: var(--cinza);
+    margin-right: 0.5em;
+}
+
+.cadastrar {
+    background-color: var(--vermelho-principal);
+    margin-left: 0.5em;
+    color: white;
+}
